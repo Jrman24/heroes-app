@@ -1,0 +1,13 @@
+header{
+    background-color: blue;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.fancy-button{
+    display: inline-flex;
+    align-items: center;
+}
