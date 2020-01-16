@@ -1,13 +1,21 @@
 header{
-    background-color: blue;
-    color: #ffffff;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 20px;
+    /*padding: 20px;*/
 }
 
+.head-wrap{
+    background-color: blue;
+    padding: 20px;
+}
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
 .fancy-button{
     display: inline-flex;
     align-items: center;
+    background-color: white;
+    color: #1976d2;
 }

@@ -6,12 +6,15 @@ import { ProductListComponent } from './product-list/product-list.component';
 import { TopBarComponent } from './top-bar/top-bar.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatIconModule } from '@angular/material/icon';
+import { ProductAlertsComponent } from './product-list/product-alerts/product-alerts.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     ProductListComponent,
-    TopBarComponent
+    TopBarComponent,
+    ProductAlertsComponent,
   ],
   imports: [
     BrowserModule,
